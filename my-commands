@@ -1,0 +1,15 @@
+  207  mkdir git-drill-1
+  208  cd git-drill-1
+  209  git init
+  210  touch readme.md index.html style.css
+  211  git remote add origin https://github.com/nsolimine/versionControlDrill1.git
+  212  git add index.html
+  213  git status
+  214  git commit -m "Adds index.html"
+  215  nano readme.md
+  216  git add -A
+  217  git reset
+  218  touch app.js
+  219  git add -A
+  220  git commit -m "Nicholas Cage laughing hysterically"
+  221  git log
